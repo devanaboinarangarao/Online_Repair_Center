@@ -1,0 +1,324 @@
+
+  body {
+    background: url(../images/color.png);
+    font-family: 'Lato', sans-serif;
+    background-size: cover;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000;
+  }
+
+  html {
+    height: 100%;
+  }
+
+
+  a{
+    color:#C03035;
+  }
+
+  a:hover {
+    outline: none;
+    text-decoration:none;
+    color:#4fcccd;
+  }
+
+  a:focus {
+    outline:none;
+    outline-offset: 0;
+  }
+
+  a {
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+  }
+
+
+  ul {
+    list-style: none;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+  }
+
+  h1{
+    color: #686868;
+  }
+
+  h2{
+    font-size: 24px;
+    color: #686868;
+  }
+
+  h3{
+    font-size: 18px;
+  }
+
+  .overflow{
+    overflow: hidden;
+  }
+
+  .uppercase{
+    text-transform: uppercase;
+  }
+
+  .btn-common {
+    font-size: 14px;
+    color: #0099ae;
+    border: 1px solid #0099ae;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    padding: 10px 25px;
+  }
+
+  #action .col-sm-5{
+    position: absolute;
+
+    top: 0;
+    height: 100%;
+    right: 0;
+  }
+
+
+  .btn-common:hover, 
+  .btn-common:focus{
+    outline: none;
+    background:teal;
+    box-shadow: none;
+    color: none;
+   
+  }
+
+  .align-right{
+    text-align: right;
+  }
+
+  .inline{
+    display: inline-block;
+  }
+
+  .padding{
+    padding: 65px 0;
+  }
+
+  .padding-bottom{
+    padding-bottom: 65px;
+  }
+
+  .padding-top{
+    padding-top: 90px;
+  }
+
+  .padding-right{
+    padding-right: 80px;
+  }
+
+  .padding-left{
+    padding-left: 80px;
+  }
+
+  .margin-bottom{
+    margin-bottom: 35px;
+  }
+
+     .carousel-indicators.visible-xs {
+      height: 20px;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      top: -35px;
+      width: 100%;
+      left: 0;
+    }
+
+  .carousel-indicators.visible-xs li {
+    border-color: #D29948;
+    border-width: 2px;
+    height: 12px;
+    margin: 0 5px 0 0;
+    width: 12px;
+  }
+
+  .carousel-indicators.visible-xs li.active {
+    background: rgba(210, 153, 72, 0.7);
+  }
+
+
+/*************************
+*******Header******
+**************************/
+@media only screen and (min-width: 1100px) 
+{
+  #header
+ 	 {
+ 	 	height:0;
+		margin-bottom: 0;
+ 	 	padding: 30px 0 60px 0;
+ 	 	background: grey;
+ 	}
+}
+#header{
+  margin-bottom: 0;
+  padding: 30px 0 60px 0;
+  background: grey;
+}
+
+#header .navbar-inverse .container{
+  position: relative;
+}
+
+
+
+#header .navbar {
+  background: grey;
+  border: 0;
+  margin-bottom: 0;
+}
+
+#header .navbar-toggle{
+  margin-top: 20px;
+}
+
+#header .navbar-brand{
+  padding: 0;
+  margin-right: 0;
+}
+
+#header .navbar-brand h1{
+  padding: 0;
+  margin: 0;
+}
+
+#header .navbar-nav.navbar-right >li:last-child{
+  margin-right: 20px;
+}
+
+#header .navbar-nav.navbar-right >li a {
+  color: #000;
+  font-size: 12px;
+  padding-right: 20px;
+  text-transform: uppercase;
+  font-weight: 300;
+  
+  
+}
+
+
+#header .navbar-inverse .navbar-nav  li.active > a,  
+#header .navbar-inverse .navbar-nav  li.active > a:focus, 
+#header .navbar-nav.navbar-right li > a:hover,
+.navbar-inverse .navbar-nav > .open > a {
+  background-color: inherit;
+  border: 0;
+  color: #b1ca15;
+  font-size:0.9em;
+ }
+
+#header .navbar-inverse .navbar-nav  li a:hover{
+  color: black;
+}
+
+
+
+
+
+/*************************
+*******Home Page******
+**************************/
+#home-slider {
+  background: url(../images/home/slider-bg.gif) 100% repeat-x;
+  position: inherit;
+  background-size: cover;
+  background-position: center;
+  
+  background-repeat: no-repeat;
+}
+
+#home-slider .main-slider 
+	{
+	  position: relative;	
+	  height:507px;  
+	}
+
+#home-slider .slide-text
+	{
+	 
+	 font-size:24px;
+	  color: yellow;
+	  position: absolute;
+	  top: 150px;
+	  left: 0;
+	  width: 450px;
+	}
+}
+
+#home-slider h1
+{
+      
+  margin-top: 100px;
+  margin-bottom: 25px;
+}
+
+#home-slider .btn-common {
+  margin-top: 20px;
+   
+}
+
+#home-slider .preloader {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: -30px;
+  right: 0;
+  background: #fafafa;
+  text-align: center;
+}
+
+#home-slider .preloader > i {
+  font-size: 48px;
+  height: 48px;
+  line-height: 48px;
+  color: #00aeef;
+  position: absolute;
+  left: 50%;
+  margin-left: -24px;
+  top: 50%;
+  margin-top: -24px;
+}
+
+@font-face 
+{
+	font-family: font;
+	src: url(fonts/edosz.ttf);
+}
+#font
+{
+      color: #12b468;
+	font-family: font;
+	font-weight: normal;
+}
+@font-face 
+{
+	font-family: font1;
+	src: url(fonts/spqr.ttf);
+}
+#font1
+{
+   font-family:font1;
+   font-weight: normal;
+}
+@font-face 
+{
+	font-family: title;
+	src: url(fonts/edosz.ttf);
+}
+#title
+{
+font-family:title;
+font-weight:normal;
+}
